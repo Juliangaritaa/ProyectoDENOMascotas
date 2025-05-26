@@ -31,7 +31,7 @@ PUT http://localhost:8000/clientes
 Content-Type: application/json
 
 {
-    "idCliente":"2",
+    "idCliente":"1 ",
     "nombre": "j",
     "apellido": "angarita",
     "telefono":"3185657114",
@@ -66,11 +66,11 @@ PUT http://localhost:8000/mascotas
 Content-Type: application/json
 
 {
-    "idMascota":"3",
+    "idMascota":"1",
     "nombre": "Julian Jr",
-    "raza": "Huski",
+    "raza": "Huskii",
     "peso":"40kg",
-    "idCliente": "3"
+    "idCliente": "1"
 }
 
 ###

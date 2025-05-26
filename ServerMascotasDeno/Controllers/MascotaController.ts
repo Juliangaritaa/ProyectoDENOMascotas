@@ -79,7 +79,7 @@ export const putMascota = async(ctx: any)=>{
         const body = await request.body.json();
 
         const mascotaData = {
-            idMascota: null,
+            idMascota: body.idMascota,
             nombre: body.nombre,
             peso: body.peso,
             raza: body.raza,
